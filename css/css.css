@@ -1,0 +1,229 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/04/2014, 12:53:16 AM
+    Author     : Sufian
+*/
+footer {
+    clear:both;
+}
+.pheigth{
+    height: auto;
+    width: auto;
+}
+#background{ 
+  
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+overflow:auto;
+min-height: 800px;
+height: auto;
+}
+
+#cssmenu {
+  background: #545454;
+  width: auto;
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#cssmenu ul:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#cssmenu ul li {
+  float: left;
+  display: block;
+  padding: 0;
+}
+#cssmenu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}
+#cssmenu ul li a:hover {
+  color: #ffffff;
+}
+#cssmenu ul li a:hover:before {
+  width: 100%;
+}
+#cssmenu ul li a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#cssmenu ul li a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #ffffff;
+  -webkit-transition: width .25s;
+  -moz-transition: width .25s;
+  -ms-transition: width .25s;
+  -o-transition: width .25s;
+  transition: width .25s;
+}
+#cssmenu ul li.last > a:after,
+#cssmenu ul li:last-child > a:after {
+  display: none;
+}
+#cssmenu ul li.active a {
+  color: #ffffff;
+}
+#cssmenu ul li.active a:before {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #cssmenu ul li {
+    float: none;
+  }
+  #cssmenu ul li a {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #cssmenu ul li a:after {
+    display: none;
+  }
+  #cssmenu ul li a:before {
+    height: 1px;
+    background: #ffffff;
+    width: 100%;
+    opacity: .2;
+  }
+  #cssmenu ul li.last > a:before,
+  #cssmenu ul li:last-child > a:before {
+    display: none;
+  }
+}
+p {
+    font-family: Verdana, Arial;
+}
+#head {
+    font-family: Verdana, Arial;
+}
+
+#contact {
+    text-align: center;
+}
+#skills {
+    margin-left: 11px;
+}
+//form css
+#components {
+  min-height: 500px;
+}
+
+#target fieldset {
+  border: 1px solid #ccc;
+  min-height: 200px;
+  padding: 5px;
+  padding-bottom: 30px;
+}
+
+.component {
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+body {
+    margin:50px 0px;
+    padding:0px;
+}
+
+#centerForm {
+    width:500px;
+    margin:0px auto;
+    text-align:left;
+}
+form {
+  //padding: 8px 4px;
+  //border: 1px dotted #ccc;
+  position: absolute;
+ // background: white;
+  //box-shadow: 0px 0px 30px #999;
+  -webkit-transition: -webkit-transform 0.1s ease-out;
+  overflow: hidden;
+
+}
+
+#render{
+  min-height: 500px;
+  font-family: monospace;
+}
+
+/* Popovers now are appended to their parent rather
+than to the body/main document as they once were.
+We need to over-ride some inherited stuff.. */
+form .popover .controls {
+  margin-left: 0;
+}
+
+form .popover .control-label {
+  text-align: center;
+}
+
+form .popover form {
+  width: 224px;
+}
+
+.popover-content form .btn{
+  margin-right: 10px
+}
+
+.target:after{
+  float:left;
+  content: " ";
+  height: 77px; 
+  margin-top: 3px;
+  background: #f0f0f0;
+  width: 100%;
+  border: 1px dashed #ccc;
+}
